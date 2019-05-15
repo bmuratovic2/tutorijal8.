@@ -82,6 +82,9 @@ class PripremaTest {
         assertEquals(dao.getDrivers().size(),1);
     }
 
+    private void assertEquals(int size, int i) {
+    }
+
     @Test
     @Order(7)
     void dodavanjeIstogVozaca() {
